@@ -1,0 +1,41 @@
+
+
+<html>
+  <meta charset='utf-8' />
+  <title>Monthly Chicago motor vehicle collisions</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/mbstyle.css">
+  
+  <div id='map3'></div>
+  <div id='console'>
+    <h1>2020 Motor vehicle collisions</h1>
+    <p>Data: <a href='https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3'>Motor vehicle collisions</a> in Chicago</p>
+    <div class='session'>
+      <h2>Accidents by Month Pre & Post Stay at Home</h2>
+      <div class='row colors'>
+      </div>
+
+      <div class='session' id='sliderbar'>
+        <h2>Month: <label id='active-hour'>Month #</label></h2>
+        <input id='slider' class='row' type='range' min='0' max='9' step='1' value='1' />
+      </div>
+  
+  
+  </div>
+
+  <div></div>
+  </div>
+
+<head>
+
+</head>
+<body>
+
+<!-- JavaScript -->
+<script type="text/javascript" src="static/js/mbconfig.js"></script>
+<script type="text/javascript" src="static/js/mblogic.js"></script>
+</body>
+</html>
